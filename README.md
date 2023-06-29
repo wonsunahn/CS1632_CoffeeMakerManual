@@ -28,7 +28,7 @@ to have good test coverage.  Each test case should have AT LEAST one
 requirement associated with it (no orphaned test cases).  One test case may
 happen to test more than one requirement using a single set of inputs, and that
 is fine.  The above can easily be checked via a traceability matrix (which you
-should also deliver). 
+should also deliver).
 
 Test cases should mention all necessary preconditions, execution steps, and
 postconditions.  Please refer to [Exercise 1](../../exercises/1) on how to write
@@ -100,7 +100,7 @@ program.  If that jumbo test case fails, then it is unclear which part of your
 program failed and what requirement is not working (compared to many discrete
 test cases).  Also, if that jumbo test case fails somewhere in the middle, that
 means you will not be testing things later on in the test case, which creates
-artifical dependencies between things you would like to test.  We learned the
+artificial dependencies between things you would like to test.  We learned the
 importance of independence when creating test cases in the lecture.  A test
 case should test one behavior at a time and all the preconditions and execution
 steps should all be preparation to test that one behavior.
@@ -108,7 +108,7 @@ steps should all be preparation to test that one behavior.
 3. PRECONDITIONS: You may be tempted to set as the precondition some state
    after a prolonged interaction with the program.  For example in Coffee Maker
 Quest, when testing FUN-DRINK, the outcome of drinking will differ depending on
-the state of the inveontory at that point.  So you may be tempted to set as a
+the state of the inventory at that point.  So you may be tempted to set as a
 precondition "has coffee, cream, and sugar", or "has no items", depending on
 what you want to test.  This can cause problems with reproducibility.
 
@@ -131,7 +131,7 @@ the following:
    The player has gathered coffee, cream, and sugar.
 
    EXECUTION STEPS:
-     1. Type "D [Enter]" at prompt 
+     1. Type "D [Enter]" at prompt
    ```
 
    The following is far superior in terms of reproducibility:
@@ -145,10 +145,10 @@ the following:
      ...
 
    EXECUTION STEPS:
-     1. Type "L [Enter]" at prompt 
-     2. Type "N [Enter]" at prompt 
+     1. Type "L [Enter]" at prompt
+     2. Type "N [Enter]" at prompt
      ... all the steps required to collect all items ...
-     10. Type "D [Enter]" at prompt 
+     10. Type "D [Enter]" at prompt
    ```
 
    Note the rooms.config file in the preconditions.  By including that file
@@ -191,7 +191,7 @@ them any way you wish, but please be consistent.  Please write them out in this
 format -
 
 	IDENTIFIER:
-	TEST CASE: 
+	TEST CASE:
 	PRECONDITIONS:
 	EXECUTION STEPS:
 	POSTCONDITIONS:
