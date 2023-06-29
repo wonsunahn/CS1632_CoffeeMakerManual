@@ -9,11 +9,11 @@
   * [Groupwork Plan](#groupwork-plan)
 
 # CS 1632 - Software Testing
-Fall Semester 2022
+Summer Semester 2023
 
-* DUE: September 26 (Monday), 2022 before class starts
+* DUE: July 10 (Tuesday), 2023 11:30 AM
 
-**GitHub Classroom Link:** https://classroom.github.com/a/WqWAEoDP
+**GitHub Classroom Link:** TBD
 
 ## Description
 
@@ -34,11 +34,11 @@ Test cases should mention all necessary preconditions, execution steps, and
 postconditions.  Please refer to [Exercise 1](../../exercises/1) on how to write
 good test cases.
 
-I expect you to test some **edge cases (at least one)** and some **corner cases
-(at least one)** as part of the test plan.  If you do this, I'd estimate that
-the number of test cases is at least 2x the number of requirements.  If the
-number of test cases is more than 3x the number of requirements, you are
-probably overtesting.
+I expect you to test some **edge cases (at least one)** and some **corner
+cases (at least one)** as part of the test plan.  If you do this, I'd
+estimate that the number of test cases is at least 2x the number of
+requirements (22 in total).  If the number of test cases is more than 3x the
+number of requirements (33 in total), you are probably overtesting.
 
 You are expected to execute the test plan in order to find the defects.  There
 are AT LEAST three.  Full credit will be given only to those who properly find
@@ -142,21 +142,22 @@ the following:
    The program coffeemaker.jar is installed in the current directory.
    The file rooms.config is installed in the current directory.
    The game has been launched using the commandline: "java -jar coffeemaker.jar".
-   The player has gathered coffee, cream, and sugar through the steps:
      ...
 
    EXECUTION STEPS:
      1. Type "L [Enter]" at prompt 
      2. Type "N [Enter]" at prompt 
      ... all the steps required to collect all items ...
-     1. Type "D [Enter]" at prompt 
+     10. Type "D [Enter]" at prompt 
    ```
 
-   As a side note, note the rooms.config file in the preconditions.  By
-including that file as part of the precondition, you can perform testing based
-on that particular room layout.  In practice, you should generate several
-configuration files such as rooms2.config, rooms3.config, etc., and test the
-system under different room layouts, but we won't go that far.
+   Note the rooms.config file in the preconditions.  By including that file
+as part of the precondition, you can perform testing based on that
+particular room layout.  Please consider the rooms.config file as part of
+the system-under-test (SUT).  It is part of the system just as
+coffeemaker.jar is part of the system.  That means you would not modify
+rooms.config for testing purposes, just like you would not modify
+coffeemaker.jar.
 
 ## Report Defects
 
