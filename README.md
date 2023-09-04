@@ -9,9 +9,9 @@
   * [Groupwork Plan](#groupwork-plan)
 
 # CS 1632 - Software Testing
-Summer Semester 2023
+Fall Semester 2023
 
-* DUE: July 10 (Tuesday), 2023 11:30 AM
+* DUE: September 25 (Monday), 2023 before start of class
 
 **GitHub Classroom Link:** TBD
 
@@ -68,7 +68,8 @@ the file [requirements.md](requirements.md).  Make sure you test each
 requirement at least once and each test case is testing some requirement.  Make
 sure you add some edge and corner cases to the mix.
 
-**Please apply everything you learned in Exercise 1 here.**
+**Please apply everything you learned in Exercise 1 here.  Also, please try to
+avoid any of the pitfalls I discussed in the recorded lecture.**
 
 Now, there are a couple of things in the deliverable that you have to watch out
 for beyond what you did for the exercise.  They all stem from the fact that
